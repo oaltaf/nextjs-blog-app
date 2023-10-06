@@ -1,7 +1,8 @@
 import React from "react";
 import Logo from "./logo";
 import Link from "next/link";
-import { LinkedinIcon } from "../Icons";
+// import { LinkedinIcon } from "../Icons";
+import { LinkedinIcon } from "../icons";
 
 const Header = () => {
   return (
@@ -23,7 +24,9 @@ const Header = () => {
         <button>T</button>
       </nav>
       <div>
-        <a href="http://example.com"><LinkedinIcon/></a>
+        <a href="http://example.com">
+          <LinkedinIcon />
+        </a>
         <a href="http://example.com">Twitter</a>
         <a href="http://example.com">Github</a>
         <a href="http://example.com">Dribble</a>
